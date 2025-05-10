@@ -12,7 +12,7 @@ import psycopg2
 import sqlite3
 
 locale.setlocale(locale.LC_ALL, '')
-SERVER = "192.168.88.251"
+SERVER = "app.manzada.net"
 WEBPORT = 8069
 TIMEOUT = 3
 RETRY = 1 
