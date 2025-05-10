@@ -7,4 +7,4 @@ COPY . /app
 # Install any dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 # Specify the command to run on container start
-# CMD ["python", "app.py"]
+# CMD ["python", "tarik-data.py"]
