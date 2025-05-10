@@ -275,7 +275,8 @@ def printAll():
             html=html+jalur_page+global_page+so_page.format(no_so,toko_so,jalur_so,sales,text_so_line)
             jalur_tmp=row_jalur[0]
             text_so_line=""
-    html_complete=style1+style2+style3+intro_mark+html+footer
+    #html_complete=style1+style2+style3+intro_mark+html+footer
+    html_complete=style1+style2+style3+html+footer
     fileout = open("/home/boy/manzada/html-table.htm", "w")
     fileout.writelines(html_complete)
     fileout.close()
